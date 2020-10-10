@@ -114,11 +114,10 @@ nav ul li{
     border-radius: 10px;
 }
 .img{
-    height: 10vh;
+    height: 9vh;
     width: 8vw;
 }
 .container{
-    
     width: 94%;
     height: 90vh;
     margin: 1%;
@@ -141,7 +140,6 @@ nav ul li{
     height: 13vh;
     padding: 1%;
     margin: 1%;
-    
     background-color: white;
 }
 .flex{
@@ -150,8 +148,8 @@ nav ul li{
     justify-content: space-evenly;
 }
 .set{
-    width: 95%;
-    height: 25%;
+    width: 85%;
+    /* height: 25%; */
     margin: 1%;
     padding: 1%;
     border: 2px solid orangered;
@@ -169,7 +167,7 @@ footer{
 }
 .semiFinal{
     width: 25%;
-    height: 35vh;
+    height: 50vh;
     padding: 1%;
     margin: 1%;
     border: 2px solid rgb(248, 245, 245);
@@ -178,7 +176,7 @@ footer{
 
 .final{
     width: 25%;
-    height: 17vh;
+    height: 20vh;
     padding: 1%;
     margin: 1%;
     border: 2px solid rgb(248, 250, 249);
