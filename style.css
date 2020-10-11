@@ -149,7 +149,7 @@ nav ul li{
 }
 .set{
     width: 85%;
-    /* height: 25%; */
+    height: 15vh;
     margin: 1%;
     padding: 1%;
     border: 2px solid orangered;
@@ -162,7 +162,7 @@ footer{
     justify-content: space-around;
     text-align: center;
     border-radius: 10px;
-    font-size:2em;
+    font-size:4em;
     align-items: center;
 }
 .semiFinal{
