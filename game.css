@@ -10,14 +10,35 @@ body {
 	justify-content: center;
 	height: 100vh;
 }
-.container {
+.container1 {
 	background: white;
 	display: flex;
 	flex-direction: column;
 	border-radius: 20px;
-	width: 700px;
-	padding: 50px;
+	width: 500px;
+	padding: 15px;
+	height: 350px;
+	align-self: inherit;
+}
+.container2 {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	width: 500px;
+	padding: 15px;
+	height: 350px;
 	align-self: center;
+}
+.container3 {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	width: 500px;
+	padding: 15px;
+	height: 350px;
+	align-self:inherit;
 }
 .row {
 	display: flex;
@@ -64,7 +85,7 @@ body {
 	justify-content: space-evenly;
 }
 
-#strike-button {
+#strike-button1,#strike-button2,#strike-button3 {
 	border: none;
 	border-radius: 25px;
 	background: linear-gradient(135deg, #c02425, #f0cb35);
@@ -76,11 +97,16 @@ body {
 	margin-bottom: -50px;
 	outline: none;
 }
-#strike-button:hover {
+#strike-button1:hover {
 	box-shadow: 0 0 10px 0 black;
 }
-
-#result {
+#strike-button2:hover{
+	box-shadow: 0 0 10px 0 black;
+}
+#strike-button3:hover{
+	box-shadow: 0 0 10px 0 black;
+}
+#result1,#result2,#result3 {
 	margin-top: 50px;
 	background: linear-gradient(90deg, #f79d00, #64f38c);
 	background-clip: text;

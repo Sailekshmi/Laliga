@@ -8,7 +8,7 @@
     <title>Penalty shootout</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container1">
         <div class="row">
             <div >
                 <img
@@ -54,15 +54,14 @@
         </div>
         <div class="row">
             <button
-                id="strike-button"
-                onclick="handleStrikeButtonClick()"
+                id="strike-button1"
+                onclick="handleStrikeButtonClick1()"
             ></button>
         </div>
-        <div class="row" id="result" hidden></div>
+        <div class="row" id="result1" hidden></div>
     </div>
-
-
-    <!-- <div class="container">
+    
+    <div class="container2">
         <div class="row">
             <div >
                 <img
@@ -108,12 +107,66 @@
         </div>
         <div class="row">
             <button
-                id="strike-button"
-                onclick="handleStrikeButtonClick()"
+                id="strike-button2"
+                onclick="handleStrikeButtonClick2()"
             ></button>
         </div>
-        <div class="row" id="result" hidden></div>
-    </div> -->
-   
+        <div class="row" id="result2" hidden></div>
+    </div>
+
+    <div class="container3">
+        <div class="row">
+            <div >
+                <img
+                    src="./assets/tottenham.png"
+                    alt=""
+                    class="profile-icon"
+                    height="150px"
+                    width="150px"
+                />
+                <span class="name" id="team-5-name"></span>
+                <div class="row round-runs" id="team-5-round-runs">
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                </div>
+            </div>
+            <div >
+                <div class="row score">
+                    <span id="team-5-score"></span>
+                    <span>-</span>
+                    <span id="team-6-score"></span>
+                </div>
+            </div>
+            <div >
+                <img
+                    src="./assets/watford.png"
+                    alt=""
+                    class="profile-icon"
+                    height="150px"
+                    width="150px"
+                />
+                <span class="name" id="team-6-name"></span>
+                <div class="row round-runs" id="team-6-round-runs">
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button
+                id="strike-button3"
+                onclick="handleStrikeButtonClick3()"
+            ></button>
+        </div>
+        <div class="row" id="result3" hidden></div>
+    </div>
+
+
 </body>
 </html>
