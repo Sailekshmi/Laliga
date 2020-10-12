@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./game.css">
     <script src="./game.js"></script>
-    <title>Document</title>
+    <title>Penalty shootout</title>
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div >
                 <img
                     src="./assets/arsenal.jpg"
                     alt=""
@@ -20,22 +20,21 @@
                 />
                 <span class="name" id="team-1-name"></span>
                 <div class="row round-runs" id="team-1-round-runs">
-                    <span class="col">-</span>
-                    <span class="col">-</span>
-                    <span class="col">-</span>
-                    <span class="col">-</span>
-                    <span class="col">-</span>
-                    <span class="col">-</span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
                 </div>
             </div>
-            <div class="col">
+            <div >
                 <div class="row score">
                     <span id="team-1-score"></span>
                     <span>-</span>
                     <span id="team-2-score"></span>
                 </div>
             </div>
-            <div class="col">
+            <div >
                 <img
                     src="./assets/chelsea.png"
                     alt=""
@@ -45,12 +44,11 @@
                 />
                 <span class="name" id="team-2-name"></span>
                 <div class="row round-runs" id="team-2-round-runs">
-                    <span class="col">-</span>
-                    <span class="col">-</span>
-                    <span class="col">-</span>
-                    <span class="col">-</span>
-                    <span class="col">-</span>
-                    <span class="col">-</span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
                 </div>
             </div>
         </div>
@@ -62,6 +60,60 @@
         </div>
         <div class="row" id="result" hidden></div>
     </div>
+
+
+    <!-- <div class="container">
+        <div class="row">
+            <div >
+                <img
+                    src="./assets/liverpool.png"
+                    alt=""
+                    class="profile-icon"
+                    height="150px"
+                    width="150px"
+                />
+                <span class="name" id="team-3-name"></span>
+                <div class="row round-runs" id="team-3-round-runs">
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                </div>
+            </div>
+            <div >
+                <div class="row score">
+                    <span id="team-3-score"></span>
+                    <span>-</span>
+                    <span id="team-4-score"></span>
+                </div>
+            </div>
+            <div >
+                <img
+                    src="./assets/manchester.png"
+                    alt=""
+                    class="profile-icon"
+                    height="150px"
+                    width="150px"
+                />
+                <span class="name" id="team-4-name"></span>
+                <div class="row round-runs" id="team-4-round-runs">
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                    <span class="col"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button
+                id="strike-button"
+                onclick="handleStrikeButtonClick()"
+            ></button>
+        </div>
+        <div class="row" id="result" hidden></div>
+    </div> -->
    
 </body>
 </html>

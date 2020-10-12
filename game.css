@@ -22,13 +22,22 @@ body {
 .row {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 }
 .col {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	
+	width : 25px;
+	height : 25px;
+	border: 1px solid #000;
+	display: inline-block;
+	border-radius: 50%; 
+	background-color: green;
 }
+
 .container > .row {
 	width: 100%;
 	justify-content: space-evenly;
@@ -81,4 +90,5 @@ body {
 	color: transparent;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	
 }
